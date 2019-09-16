@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    border-color: #dddddd
+    ;
+    margin: 0
+    ;
+    padding: 0
+    ;
+    background-image: url(../images/gaming-pattern/gaming-pattern.png)
+    ;
+}
+.topnav {
+    background-color: #ffffff
+    ;
+    width: auto
+    ;
+    height: 80px
+    ;
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    box-shadow: 0 4px 2px -2px gray
+    ;
+}
+.hiddenHeader {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    background-color: inherit;
+}
+ul {
+    list-style-type: none
+    ;
+    margin: 0
+    ;
+    padding: 0
+    ;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 25px;
+  }
+  
+li {
+    display: inline;
+    color: lightgray;
+  }
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+.namebox {
+    background-color: #4aaaa5
+    ;
+    width: 200px
+    ;
+    height: 100%
+    ;
+    color: white
+    ;
+    text-align: center
+    ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+    font-size: 25px
+    ;
+    position: absolute;
+    left: 0;
+}
+/* .clearfix {
+    content: ""
+    ;
+    clear: both
+    ;
+    display: table
+    ;
+} */
+#content {
+    height: 80vh;
+    width: 960px
+    ;
+    margin: auto
+    ;
+    border-width: 1px 
+    ;
+    border-style: solid
+    ;
+    border-color: gray
+    ;
+    position: relative;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.aboutme {
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+    width: auto
+    ;
+    height: 50px
+    ;
+    color: #4aaaa5;
+    font-size: 25px;
+    margin-left: 19px;
+}
+.graybar {
+    border-top: lightgray 2px solid
+    ;
+    width: 920px
+    ;
+}
+.selfie {
+    height: 185px
+    ;
+    width: 170px
+    ;
+    /* margin: 19px
+    ; */
+    padding: 0 10px 10px 0
+    ;
+}
+.para {
+    color: #777777
+    ;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 20px;
+    height: 600px;
+}
+/* .clearfix {
+    content: ""
+    ;
+    clear: both
+    ;
+    display: table
+    ;
+} */
+footer {
+    background-color: #666666
+    ;
+    text-align: center
+    ;
+    font-size: 1px
+    ;
+    height: 50px;
+    margin-top: 20px;
+    border-top: 5px solid #4aaaa5;
+    color: white;
+}
+h6 {
+    text-align: center;
+    color: white;
+    line-height: 49px;
+    font-size: 30px;
+}
+.name {
+    line-height: 80px;
+}
+/* .mountains {
+    margin: 8px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.nuts {
+    margin: 8px;
+}
+.purple {
+    margin: 8px;
+}
+.sushi {
+    margin: 8px;
+}
+.veggies {
+    margin: 8px;
+} */
+
+.project {
+    position: relative;
+    float:left;
+    padding:10px;
+    overflow: hidden;
+}
+/* .banner {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding:5px 0;
+    width:92%;
+    text-align: center;
+    color: #fff;
+    
+} */
+
+.project:hover {
+    transform: translate(0, -8px);
+    box-shadow: 0px 8px #700707;
+    transition: .3s ease-in-out;
+   }
+
+.project img {
+    width: 100%;
+    z-index: 0; 
+  }
+.project h2 {
+    width: 93%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    opacity: .9;
+    font-weight: normal;
+    position: absolute;
+    bottom: 12px;
+    z-index: 1;
+   }
+.form { 
+    margin: 18px;
+} 
+.formHeader {
+    color: #4aaaa5;
+}
+.button_1 {
+    color: white;
+    background-color: #4aaaa5;
+    border-radius: 2px;
+}
+.basicField {
+    width: 920px;
+}
+.messageField {
+    width: 920px;
+    height: 300px;
+} 
+  /*for laptop viewport up to 980 pixels*/
+  @media screen and (max-width: 980px) {
+    /*
+      body {
+        background-color: yellow;
+      }*/
+    
+      .topnav {
+        width: 740px;
+       }
+
+       .project {
+        width: 100%;
+        height: 250px;
+       }
+
+       .footer {
+           margin-top: 20px;
+       }
+  
+        }
+    /*for phone (landscape) viewport up to 640 pixels*/
+    @media screen and (max-width: 640px) {
+  
+      .title {
+        height: 86px;
+        width: 100%; }
+    
+      .topnav {
+        width: 100%; }
+    
+      .header {
+        height: auto; }
+    
+      #horizontal {
+        padding: 12px 0;
+        width: 100%;
+        background-color: #ffffff;
+        display: inline-block;
+        margin-top: 0px; 
+      }
+  
+      .horizontal a {
+        box-sizing: border-box;
+        width: 33.3%;
+        text-align: center; 
+      }
+      .project {
+        width: 33%;
+        height: 250px; } 
+    }
